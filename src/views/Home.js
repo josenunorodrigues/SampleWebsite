@@ -1,7 +1,7 @@
 import CostumerForm from "./costumerForm/CostumerForm.vue";
 
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   components: {
     CostumerForm
   },

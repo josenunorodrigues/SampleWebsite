@@ -11,7 +11,7 @@
     <div class="u-form-group u-form-phone u-form-group-3">
       <label for="phone-b9b6" class="u-label"
       >Telefone</label>
-      <input v-model="tel" type="tel" pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" id="phone-b9b6" name="phone" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" />
+      <input v-model="phone" type="tel" pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" id="phone-b9b6" name="phone" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" />
     </div>
     <div class="u-form-group u-form-message">
       <label for="message-6797" class="u-label">Morada</label>
