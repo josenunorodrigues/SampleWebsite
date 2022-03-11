@@ -1,0 +1,27 @@
+.costumer-form {
+  margin-bottom: 50px;
+  &__send {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #00a661;
+    border: none;
+    font-family: lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    outline: none;
+  }
+  &__line {
+    height: 1px;
+    width: 70%;
+    background-color: #d4d4d4;
+    margin: 40px auto;
+  }
+}
+
+
+.filepond--credits {
+  display: none;
+}

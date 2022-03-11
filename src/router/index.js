@@ -7,7 +7,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: require('../views/Home.vue').default,
+    component: require('../views/pages/home/Home.vue').default,
   },
   // {
   //   path: "/about",

@@ -1,0 +1,13 @@
+.header {
+  background-image: url("../../../assets/250251-1_natural-cork-01_1440x1100.jpg");
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-position: center;
+  &__image {
+
+  }
+  &__logo {
+    display: block;
+    width: 105px;
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+  background-image: url("../../../assets/250251-1_natural-cork-01_1440x1100.jpg");
+  background-position: center;
+  &__inner {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__links {
+    display: flex;
+    &-icon {
+      width: 32px;
+    }
+  }
+  &__info {
+    &-text {
+      font-family: lato,"sans-serif";
+      font-size: 23px;
+      font-weight: 600;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+  &__svg {
+    &-link {
+      color: black;
+    }
+    &-content {
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    &__info {
+      &-text {
+        font-size: 17px;
+      }
+    }
+  }
+}

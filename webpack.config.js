@@ -1,6 +1,5 @@
 const { VueLoaderPlugin } = require("vue-loader");
 const htmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const autoprefixer = require("autoprefixer");
 const path = require("path");
@@ -46,8 +45,7 @@ module.exports = {
       {
         test: /\.s?css$/,
         use: [
-          // "style-loader",
-          MiniCssExtractPlugin.loader,
+          "style-loader",
           "css-loader",
           {
             loader: "postcss-loader",
@@ -63,10 +61,6 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin({
-      filename: "[name].[contenthash:8].css",
-      chunkFilename: "[name].[contenthash:8].css",
-    }),
     new htmlWebpackPlugin({
       template: path.resolve(__dirname, "public", "index.html"),
       favicon: "./public/favicon.ico",
@@ -80,5 +74,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    hot: true
   },
 };
