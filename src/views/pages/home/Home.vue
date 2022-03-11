@@ -3,19 +3,21 @@
     <section class="home__title-section">
       <h1 class="home__title">A parede é o que nos une</h1>
     </section>
-    <section class="home__product-info container">
-      <img class="home__product-info__l-image" src="../../../assets/drybag.jpg" alt="" data-image-width="1904" data-image-height="2404" />
-      <img class="home__product-info__r-image" src="../../../assets/DSCF3239-edi1.jpg" alt="" data-image-width="1263" data-image-height="1600" />
-      <h3 class="home__product-info-title">Saco de Magnésio</h3>
-      <h5 class="home__product-info-subtitle">Porque os sacos de magnésio não têm que ser todos iguais, nós personalizamos este para ti.</h5>
-      <h5 class="home__product-info-subtitle">Envia-nos um desenho com 50mm x 50mm (no minimo) e gravamos no teu saco.</h5>
-      <ul class="home__product-info-list">
-        <li class="home__product-info-list-item">Exterior e cinto em Cortiça com forro macio</li>
-        <li class="home__product-info-list-item">Fecho "Dry bag" para evitar o desperdicio</li>
-        <li class="home__product-info-list-item">Confortável e resistente</li>
-        <li class="home__product-info-list-item">Fabricado em Portugal</li>
-        <li class="home__product-info-list-item">PVP - 30€</li>
-      </ul>
+    <section class="home__product-info">
+      <div class="container">
+        <img class="home__product-info__l-image" src="../../../assets/drybag.png" alt="" data-image-width="1904" data-image-height="2404" />
+        <img class="home__product-info__r-image" src="../../../assets/DSCF3239-edi1.png" alt="" data-image-width="1263" data-image-height="1600" />
+        <h3 class="home__product-info-title">Saco de Magnésio</h3>
+        <h5 class="home__product-info-subtitle">Porque os sacos de magnésio não têm que ser todos iguais, nós personalizamos este para ti.</h5>
+        <h5 class="home__product-info-subtitle">Envia-nos um desenho com 50mm x 50mm (no minimo) e gravamos no teu saco.</h5>
+        <ul class="home__product-info-list">
+          <li class="home__product-info-list-item">Exterior e cinto em Cortiça com forro macio</li>
+          <li class="home__product-info-list-item">Fecho "Dry bag" para evitar o desperdicio</li>
+          <li class="home__product-info-list-item">Confortável e resistente</li>
+          <li class="home__product-info-list-item">Fabricado em Portugal</li>
+          <li class="home__product-info-list-item">PVP - 30€</li>
+        </ul>
+      </div>
     </section>
     <section class="home__collection">
       <h2 class="home__collection-title">Nossa Colecção</h2>

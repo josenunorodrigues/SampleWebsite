@@ -16,19 +16,21 @@
     position: relative;
     text-align: center;
     margin-bottom: 100px;
-    &.container {
+    overflow: hidden;
+    & .container {
       max-width: 700px;
+      position: relative;
     }
     &__l-image {
       position: absolute;
       width: 270px;
-      top: 40px;
+      top: 30px;
       right: calc(100% + 10px);
     }
     &__r-image {
       position: absolute;
       width: 270px;
-      top: 40px;
+      top: 30px;
       left: calc(100% + 10px);
       
     }
